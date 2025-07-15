@@ -1,17 +1,22 @@
-# Ignore node dependencies
+# Node.js dependencies
 node_modules/
 
 # Logs
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Environment variable files
+# Environment variables
 .env
 
-# Operating system files
+# OS and editor junk
 .DS_Store
 Thumbs.db
-
-# IDE/editor folders
 .vscode/
 .idea/
+
+# Optional: coverage/testing outputs
+coverage/
+karma-*.log
